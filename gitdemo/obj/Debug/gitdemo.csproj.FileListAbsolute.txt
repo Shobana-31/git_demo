@@ -1,1 +1,6 @@
 F:\Shobi Root\programs\gitdemo\gitdemo\bin\Debug\gitdemo.exe.config
+F:\Shobi Root\programs\gitdemo\gitdemo\bin\Debug\gitdemo.exe
+F:\Shobi Root\programs\gitdemo\gitdemo\bin\Debug\gitdemo.pdb
+F:\Shobi Root\programs\gitdemo\gitdemo\obj\Debug\gitdemo.csprojResolveAssemblyReference.cache
+F:\Shobi Root\programs\gitdemo\gitdemo\obj\Debug\gitdemo.exe
+F:\Shobi Root\programs\gitdemo\gitdemo\obj\Debug\gitdemo.pdb
