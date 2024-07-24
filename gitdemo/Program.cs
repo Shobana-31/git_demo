@@ -28,7 +28,12 @@ namespace gitdemo
            // q16();
             //q17();
            // q18();
-            q20();
+           // q20();
+            //q21();
+           // q22();
+            //q23();
+            //q24();
+            q25();
         }
         public static void q1()
         {
@@ -205,10 +210,63 @@ namespace gitdemo
             int bp = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter DA:");
             int da = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Ta Pay:");
+            Console.WriteLine("Enter Ta:");
             int ta = int.Parse(Console.ReadLine());
             Console.WriteLine("Gross pay is:" + (bp + (bp * da / 100) + (bp * ta / 100) - (8.0 / 100)));
         }
-
+        public static void q21()
+        {
+            Console.WriteLine("Enter Principle Amount:");
+            int p = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter No of times:");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Rate of Interest:");
+            int r = int.Parse(Console.ReadLine());
+            double simple_interest = (p * n * r )/ 100;
+            Console.WriteLine("Simple Interest :"+simple_interest);
+        }
+        public static void q22()
+        {
+            Console.WriteLine("Principal Amount:");
+            int p = int.Parse(Console.ReadLine());
+            Console.WriteLine("Number of time:");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Rate of interest value:");
+            int r = int.Parse(Console.ReadLine());
+            Console.WriteLine("Time of periods:");
+            int t1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Compound Interest is:" + (p * ((1 + r / n) ^ (n * t1))));
+        }
+        public static void q23()
+        {
+            Console.WriteLine("Enter Height in Cm:");
+            int cm = int.Parse(Console.ReadLine());
+            Console.WriteLine(cm/30.0+" Feet "+cm/2.54+" inches");
+        }
+        public static void q24()
+        {
+            Console.WriteLine("Enter your weight:");
+            float weight = float.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your height:");
+            int heigth = int.Parse(Console.ReadLine());
+            Console.WriteLine("BMI value is:" + weight / heigth  * heigth );
+        }
+        public static void q25()
+        {
+            Console.WriteLine("Enter your Roll No:");
+            int roll_no = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your Name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter Mark1:");
+            int m1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Mark2:");
+            int m2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Mark3:");
+            int m3 = int.Parse(Console.ReadLine());
+            int total = m1 + m2 + m3;
+            Console.WriteLine("Total mark is: "+total);
+            int average = total / 3;
+            Console.WriteLine("Average: "+average);
+        }
     }
 }
